@@ -1,6 +1,6 @@
 #### react-vite-template
 
-Шаблон для проектов React + Vite
+Шаблон для проектов Vite + React + TS + MUI + Tailwind
 
 ---
 
@@ -8,7 +8,7 @@
 
 ```
 // клонирование репозитория
-git clone git@github.com:MiggRabbid/test-task-Tapigo.git
+git clone git@github.com:MiggRabbid/react-vite-template.git
 
 // установка зависимостей
 make i
@@ -18,6 +18,13 @@ make d
 
 // сборка проекта
 make b
+
+// запуск prettier
+make f
+
+// запуск eslint
+make l
+
 
 // структура проекта
 make rt
